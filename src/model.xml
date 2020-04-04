@@ -1,10 +1,10 @@
 <catalog>
     <widget>
-        <name>build-widget</name>
+        <name>user-test-widget</name>
         <contextItemName>[BBHOST]</contextItemName>
         <properties>
             <property label="Title" name="title" viewHint="text-input,admin">
-                <value type="string">build widget</value>
+                <value type="string">User Test Widget</value>
             </property>
             <property name="TemplateName">
                 <value type="string">Standard_Widget</value>
@@ -15,9 +15,9 @@
             <property name="version">
                 <value type="string">0.1.0-alpha.0</value>
             </property>
-            <!-- <property name="thumbnailUrl">
+            <property name="thumbnailUrl">
                 <value type="string">$(itemRoot)/media/icon.png</value>
-            </property> -->
+            </property>
             <property name="csr">
                 <value type="boolean">false</value>
             </property>
@@ -26,6 +26,9 @@
             </property>
             <property name="area">
                 <value type="string">0</value>
+            </property>
+             <property name="getUserRoles">
+                <value type="string">$(contextRoot)/services/rest/roles</value>
             </property>
         </properties>
         <tags>

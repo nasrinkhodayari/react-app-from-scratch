@@ -1,3 +1,5 @@
 import Axios from 'axios';
-const api = {}
+const api = {
+    
+}
 export default api;

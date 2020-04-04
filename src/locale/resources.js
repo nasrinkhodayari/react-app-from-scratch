@@ -2,13 +2,17 @@ const resources = {
     "en": {
         translation: {
             "yes": "yes",
-            "title":"title"
+            "title":"title",
+            "pleaseWait":"pleaseWait",
+            "roleListTitle":"Role List Title"
         }
     },
     "fa-IR": {
         translation: {
             "yes": "بله",
-            "title":"عنوان"
+            "title":"عنوان",
+            "pleaseWait":"لطفا منتظر بمانید...",
+            "roleListTitle":"لیست نقشها"
         }
     }
 };
